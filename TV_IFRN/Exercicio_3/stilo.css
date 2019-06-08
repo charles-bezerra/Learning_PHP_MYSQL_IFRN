@@ -1,0 +1,18 @@
+body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: green;
+}
+.header{
+    width: 100%;
+    float: left;
+}
+.header #valor{
+    width: 30%;
+    height: 5%;
+}
+#qrcode{
+    float: none;
+}

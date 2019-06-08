@@ -1,0 +1,27 @@
+﻿<html>
+
+	<head> </head>
+	
+	<body>
+			<form action="CadAluno.php" method="post">
+				<h3> Cadastro de Aluno  </h3>
+				Nome:
+				<input type="text" name="nome" size="15" required="required" placeholder="Fulano de Tal" /> <br/>
+				Sexo:
+				<input type="radio" value="M" required="required" name="sexo"> Masculino</input> 
+				<input type="radio" required="required" value="F" name="sexo"> Feminino </input> <br/>
+				Data Nascimento:
+				<input type="date" name="data_nasc" required="required" /> <br/>
+				Email:
+				<input type="email" name="email" placeholder="fulano@email.com" /> <br/>
+
+	
+			
+			
+				<input type="submit" value="Cadastrar Aluno" />
+			
+			</form>	
+			<a href="listagemaluno.php">Listagem dos Alunos</a>
+	
+	</body>
+</html>
